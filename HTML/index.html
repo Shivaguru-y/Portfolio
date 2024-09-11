@@ -6,6 +6,7 @@
     <title>Shiva Guru's Portfolio</title>
     <link rel="stylesheet" href="/CSS/index.css">
 
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
@@ -19,19 +20,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-flex justify-content-center w-100">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home" id="nav1"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    <a class="nav-link active" aria-current="page" href="#about" id="nav2"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+                    <a class="nav-link active" aria-current="page" href="#skills" id="nav3"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#project">Projects</a>
+                    <a class="nav-link active" aria-current="page" href="#project" id="nav4"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                    <a class="nav-link active" aria-current="page" href="#contact" id="nav5"></a>
                 </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -42,19 +43,21 @@
             </div>
         
         </nav>
+
+        
     <!-- #home -->
     <section id="home">
         <div class="container-fluid">
-            <div class="row d-flex align-items-center justify-content-center">
-                <div class="col-lg-6 col-md- mb-4 text-center text-lg-start">
+            <div class="row d-flex align-items-center justify-content-center ">
+                <div class="col-lg-6 col-md- mb-4 text-center ">
                     <h3 class="display-1">HI</h3>
-                    <h1 class="display-4">I'm <span>ShivaGuru</span><br>Associate Full Stack Software Developer</h1>
-                    <p class="fs-5">
-                        Full Stack Java Developer & Enthusiastic in Ethical Hacking | Passionate in Machine Learning & Cybersecurity
+                    <h1 class="display-4" id="homeh1"></h1>
+                    <p class="fs-5" id="ds">
+                        
                     </p>
                 </div>
                 <div class="col-lg-6 col-md-7 mb-4 d-flex justify-content-center">
-                    <img src="../assets/images/inBike.jpeg" alt="shiva'sPic" class="img-fluid rounded-circle">
+                    <img id="homepic" src= "" alt="shiva'sPic" class="img-fluid rounded-circle">
                 </div>
             </div>
         </div>
@@ -62,18 +65,15 @@
     <section id="about">
         <div class="container-fluid bg-black text-white py-5">
             <div class="row d-flex align-items-center justify-content-center">
-            <center><h1 class="h1" style="color: red;"> About</h1></center>
+            <center><h1 class="h1" style="color: red;" id="abouth1"></h1></center>
             <div class="col-lg-6 col-md-12 mb-4 text-center text-lg-start">
-                <p class="fs-5">
-                    Hello world! 🌍 If you’re looking for a tech enthusiast who’s as comfortable speaking to a crowd as to a compiler, you’ve met your match.<br>
-                    With a foundation built at Pondicherry University's Christ Technology College and polished with numerous certifications in everything tech, my path has been a thrilling ride through the digital landscape. From Ethical Hacking to mastering Python, my education has been a blend of rigor and fun, empowering me to tackle complex problems with a smile. 😊
-                    Interning at SHIASH INFO SOLUTIONS,<br> <sm>I not only enhanced my Python Full Stack Development skills but also discovered the joy of bringing people and programming together. My skill set is as diverse as my interests, covering an array of languages and platforms that keep me at the tech frontier.
-                    Whether it’s collaborating on innovative projects or breaking down complex tech topics for everyone to understand, I thrive on connection and communication. Music to my ears? The sound of code working on the first try. 🎵💻
-                    Interested in coding up solutions or exchanging tech tales? Hit connect! Let’s chat. 🤝
+                <p class="fs-5" id="about1">
+
+
                 </p>
             </div>
                 <div class="col-lg-3 col-md-6 col-sm-4 mb-4">
-                    <img src="../assets/images/standing.jpg" alt="shivaProf'sPic" class="img-fluid rounded-circle float-start">
+                    <img id="aboutpic" src= "" alt="shivaProf'sPic" class="img-fluid rounded-circle float-start">
                 </div>
             </div>
         </div>
@@ -81,35 +81,35 @@
     <section id="skills">
         <div class="container-fluid">
             <div class="row d-flex align-items-center justify-content-center py-5" style="background-color: #ffffff;">
-                <center><h1 class="h1" style="color: red;"> Skills</h1></center>
+                <center><h1 class="h1" style="color: red;" id="skill"></h1></center>
                 <div class="card" style="width: 18rem;" >
-                    <img src="../assets/images/html-css.png" class="card-img-top" style="margin: 10px 2% solid #6610f2;padding: 5px;" alt="...">
+                    <img id="skillPic1" src= "" class="card-img-top" style="margin: 10px 2% solid #6610f2;padding: 5px;" alt="...">
                     <div class="card-body">
-                      <p class="card-text">HTML is a markup language used to create static web pages and web applications. CSS is a style sheet language.</p>
+                      <p class="card-text" id="skills1"></p>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="/assets/images/js.png" style="height: 15rem;" class="card-img-top" alt="...">
+                    <img id="skillPic2" src= "" style="height: 15rem;" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">JavaScript (JS) is a programming language that's used to make web pages interactive. It's a interpreted language.</p>
+                      <p class="card-text" id="skills2"></p>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem; ">
-                    <img src="/assets/images/java.png" class="card-img-top" alt="...">
+                    <img id="skillPic3" src= "" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Java is a programming language and computing platform that is used to create a wide variety of applications</p>
+                      <p class="card-text" id="skills3"></p>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="/assets/images/python.png" class="card-img-top" alt="...">
+                    <img id="skillPic4" src= "" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Python is an interpreted language that is dynamic and flexible. It has dynamic semantics.</p>
+                      <p class="card-text" id="skills4"></p>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="/assets/images/sql.jpeg" class="card-img-top" style="height: 262PX;" alt="...">
+                    <img id="skillPic5" src= "" class="card-img-top" style="height: 262PX;" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Structured query language (SQL) is a standard language for database creation and manipulation.</p>
+                      <p class="card-text" id="skills5"></p>
                     </div>
                 </div>
             </div>
@@ -117,26 +117,26 @@
     </section>
     <section id="project">
         <div class="container-fluid py-5" style="background-color: #000000;">
-            <center><h1 class="h1 mb-5" style="color: rgb(255, 0, 0);">Projects</h1></center>
+            <center><h1 class="h1 mb-5" style="color: rgb(255, 0, 0);" id="projecth1"></h1></center>
             <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-evenly">
                 <div class="col">
                   <div class="card h-100">
-                    <img src="../assets/images/project1.jpeg" class="card-img-top" alt="...">
+                    <img id="projectPic1" src= "" class="card-img-top" alt="...">
                 
                     <div class="card-body">
                         <hr>
-                      <h5 class="card-title">Inadequate Learning in Passive Aggressive Algorithm</h5>
-                      <p class="card-text">I developed a web-based application that includes fundamental operations such as user login, storing user details, and processing order information. The application utilizes machine learning techniques to classify order details from users, enabling precise product identification and recommendation.</p>
+                      <h5 class="card-title" id="project-title1"></h5>
+                      <p class="card-text" id="project-c1"></p>
                     </div>
                   </div>
                 </div>
                 <div class="col" >
                   <div class="card h-100">
-                    <img src="../assets/images/law.jpeg" class="card-img-top" alt="...">
+                    <img id="projectPic2" src= "" class="card-img-top" alt="...">
                     <div class="card-body">
                         <hr>
-                      <h5 class="card-title">AI Chatbot Application Development Assisting Legal Case Prediction</h5>
-                      <p class="card-text"> In this project, we aim to develop an AI-driven chatbot application tailored to assist in the prediction of legal case outcomes. The application integrates advanced natural language processing (NLP) and machine learning algorithms to analyze legal documents, case histories, and relevant legal precedents.</p>
+                      <h5 class="card-title" id="project-title2"></h5>
+                      <p class="card-text" id="project-c2"></p>
                     </div>
                   </div>
                 </div>
@@ -148,23 +148,23 @@
             <center><h1 class="h4 mb-5" style="color: rgb(0, 0, 0);">Contact Me</h1></center>
             <form class="row g-3">
                 <div class="col-md-6">
-                    <label for="inputFname" class="form-label">First Name</label>
+                    <label for="inputFname" class="form-label" id="contact1"></label>
                     <input type="text" class="form-control" id="inputFname" placeholder="Enter your first name">
                 </div>
                 <div class="col-md-6">
-                    <label for="inputLname" class="form-label">Last Name</label>
+                    <label for="inputLname" class="form-label" id="contact2"></label>
                     <input type="text" class="form-control" id="inputLname" placeholder="Enter your last name">
                 </div>
                 <div class="col-md-6">
-                    <label for="inputEmail" class="form-label">Email</label>
+                    <label for="inputEmail" class="form-label" id="contact3"></label>
                     <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
                 </div>
                 <div class="col-md-6">
-                    <label for="inputNumber" class="form-label">Number</label>
+                    <label for="inputNumber" class="form-label" id="contact4"></label>
                     <input type="tel" class="form-control" id="inputNumber" placeholder="Enter your phone number">
                 </div>
                 <div class="col-12">
-                    <label for="inputMessage" class="form-label">Your Message</label>
+                    <label for="inputMessage" class="form-label" id="contact5"></label>
                     <textarea class="form-control" id="inputMessage" rows="4" placeholder="Enter your message"></textarea>
                 </div>
                 <div class="col-12 text-center">
@@ -180,11 +180,12 @@
     
     <footer class="footer bg-dark text-white py-4">
         <div class="container text-center">
-            <p>© 2024 ShivaGuru. All rights reserved.</p>
-            <p>1234 Developer St, Code City, Techland</p>
-            <p>Email: shivaguru.y@gmail.com | Phone: 1234567</p>
+            <p id="fp1"></p>
+            <p id="fp2"></p>
+            <p id="fp3"></p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/js/index.js"></script>
   </body>
 </html>
