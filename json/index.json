@@ -1,0 +1,56 @@
+{
+    "navi": {
+      "0": "Home",
+      "1": "About",
+      "2": "Skills",
+      "3": "Projects",
+      "4": "Contact"
+    },
+    "a": [
+      {
+        "desc": "Hello world! 🌍 If you’re looking for a tech enthusiast who’s as comfortable speaking to a crowd as to a compiler, you’ve met your match.<br>With a foundation built at Pondicherry University's Christ Technology College and polished with numerous certifications in everything tech, my path has been a thrilling ride through the digital landscape. From Ethical Hacking to mastering Python, my education has been a blend of rigor and fun, empowering me to tackle complex problems with a smile. 😊 Interning at SHIASH INFO SOLUTIONS,<br> <sm>I not only enhanced my Python Full Stack Development skills but also discovered the joy of bringing people and programming together. My skill set is as diverse as my interests, covering an array of languages and platforms that keep me at the tech frontier. Whether it’s collaborating on innovative projects or breaking down complex tech topics for everyone to understand, I thrive on connection and communication. Music to my ears? The sound of code working on the first try. 🎵💻 Interested in coding up solutions or exchanging tech tales? Hit connect! Let’s chat. 🤝"
+      },
+      {
+        "desc": "Full Stack Java Developer & Enthusiastic in Ethical Hacking | Passionate in Machine Learning & Cybersecurity"
+      }
+    ],
+    "sk": {
+      "0": "HTML is a markup language used to create static web pages and web applications. CSS is a style sheet language.",
+      "1": "JavaScript (JS) is a programming language that's used to make web pages interactive. It's an interpreted language.",
+      "2": "Java is a programming language and computing platform that is used to create a wide variety of applications.",
+      "3": "Python is an interpreted language that is dynamic and flexible. It has dynamic semantics.",
+      "4": "Structured query language (SQL) is a standard language for database creation and manipulation."
+    },
+    "projects": [{
+        "0": "Inadequate Learning in Passive Aggressive Algorithm",
+        "1": "AI Chatbot Application Development Assisting Legal Case Prediction"
+      },{
+        "0": "I developed a web-based application that includes fundamental operations such as user login, storing user details, and processing order information. The application utilizes machine learning techniques to classify order details from users, enabling precise product identification and recommendation.",
+        "1": "In this project, we aim to develop an AI-driven chatbot application tailored to assist in the prediction of legal case outcomes. The application integrates advanced natural language processing (NLP) and machine learning algorithms to analyze legal documents, case histories, and relevant legal precedents."
+      }],
+
+    "contact": {
+      "0": "First Name",
+      "1": "Last Name",
+      "2": "Email",
+      "3": "Phone",
+      "4": "Message"
+    },
+    "footer": {
+      "0": "© 2024 ShivaGuru. All rights reserved.",
+      "1": "1234 Developer St, Code City, Techland",
+      "2": "Email: shivaguru.y@gmail.com | Phone: 1234567"
+    },
+    "images": {
+    "homepic": "/assets/images/inBike.jpeg",
+    "aboutpic": "/assets/images/standing.jpg",
+    "skillPic1": "/assets/images/html-css.png",
+    "skillPic2": "/assets/images/js.png",
+    "skillPic3": "/assets/images/java.png",
+    "skillPic4": "/assets/images/python.png",
+    "skillPic5": "/assets/images/sql.jpeg",
+    "projectPic1": "/assets/images/project1.jpeg",
+    "projectPic2": "/assets/images/law.jpeg"
+  }
+  }
+  
